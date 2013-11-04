@@ -1,0 +1,208 @@
+/* slider style */
+.nivoSlider {
+    position:relative;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+	
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+
+/* page style */
+		/*Font Embedding*/
+		@font-face {
+		font-family:'Play';
+		font-style:normal;
+		font-weight:400;
+		src:local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v3/IkErdnKw9ItVkLeeur9GHfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+		}
+.borderRadius{
+border-radius:10px;
+}
+body{
+background:#232323 /*url('mexzilians/images/graphics/layout/background.png')*/;
+width:100%;
+height:1500px;}
+
+#bodywrap{
+width:98%;
+height:80%;
+margin-left:1%;
+margin-right:1%;
+border:1px solid black;
+background:#C2C1C2/*url('mexzilians/images/graphics/layout/background.png')*/;
+}
+
+#topbar{
+width:100%;
+height:150px;
+margin-bottom:10px;
+position:relative;
+left:0px;
+background:black;
+}
+
+#topbar div{
+float:right;
+margin-left:10px;
+}
+
+#topbar div a{
+color:white;
+font-family:play;
+font-size:1.3em;
+}
+
+#topbar div:hover{
+opacity:0.5;
+}
+
+/*#topbar div img{
+height:50%;
+width:50%;
+}*/
+
+#nameSpace{
+width:100%;
+height:0px;
+/*background:url('mexzilians/images/graphics/logos/namespacelogo.jpg');*/
+background-repeat: no-repeat;
+opacity:1.0;
+margin-bottom:10px;
+}
+
+#nameSpace img{
+position:relative;
+top:-160px;
+left:25px;
+}
+
+#mainWrapper{
+width:98%;
+height:525px;
+margin-left:1%;
+margin-right:1%;
+margin-bottom:75px;
+background:gray;
+box-shadow:3px 3px 3px #656565;
+}
+#inventoryWrapper{
+width:98%;
+height:1000px;
+margin-left:1%;
+margin-right:1%;
+margin-bottom:75px;
+background:gray;
+box-shadow:3px 3px 3px #656565;
+}
+
+#mainDivBar{
+height:50px;
+width:100%%;
+background:url('mexzilians/images/graphics/layout/tile2.jpg');
+background-repeat:repeat-x;
+opacity:1;
+border-radius: 10px 10px 0px 0px;
+}
+
+.thumbImageDiv img{
+height:175px;
+width:175px;
+}
+/* .thumbImageDiv img has to go above #mainDivContent */
+
+#mainDivContent{
+height:100%;
+}
+
+
+#slider img{
+height:475px;
+width:100%;
+}
+
+#mainLower{
+}
+
+
+#thumblist li a{
+float:left;
+margin-bottom:20px;
+box-shadow:3px 3px 7.5px #3c3c3c;
+}
+.largethumb{
+margin-left:10px;
+margin-right:55px;
+}
+.smallthumb{
+margin-right:0px;;
+}
+#wrapper{
+position:relative;
+top:-100px;
+}
+#mainDivContentChild{
+padding:5px;
+}
+#clothingMenu, #clothingSpace{
+float:left;
+}
+#clothingMenu{
+width:25%;
+height:500px;
+border:1px solid #000000;
+background:#444444;
+}
+#clothingMenu ul{
+list-style-type:none;
+text-align:right;
+margin-right:5px;
+}
+#clothingMenu ul li a{
+color:white;
+font-family:play;
+font-size:1.5em;
+margin-bottom:5px;
+}
+#clothingMenu ul li a:hover{
+opacity:0.6;
+}
+
+.clothingThumb{
+float:left;
+border:1px solid black;
+background:white;
+}
+
+.thumbDescription .title{
+font-family:play;
+color:black;
+}
+.thumbDescription .title:hover {
+text-decoration:underline;
+}
+
+.thumbDescription  .price{
+font-family:play;
+color:blue;
+}
+
+#footer{
+clear:left;
+position:relative;
+bottom:-200px;
+}
+
+.footerlinks{
+color:white;
+font-family:play;
+margin-left:50px;
+}
